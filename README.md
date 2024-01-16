@@ -6,7 +6,7 @@ After lots of development, testing, debugging, dead ends, backtracking, and retr
 
 However, in order to perform this function, the IC needs a lot of information, including both the on-paper specifications of your battery system and the results of several different calibration runs of your real battery system.  With one exception*, this driver can handle all the needed configuration, taking you from unconfigured to calibrated in as little time as possible.
 
-* Note: To initially program the Chem ID information into each chip to configure it for your battery, you will need an EV2300 or EV2400 programmer box from TI, as well as a header to plug it in on your board.
+\* Note: To initially program the Chem ID information into each chip to configure it for your battery, you will need an EV2300 or EV2400 programmer box from TI, as well as a header to plug it in on your board.
 
 ## Calibrating the Chip
 See [here](https://os.mbed.com/users/MultipleMonomials/code/BQ34Z100G1/wiki/Setup-and-Calibration-Guide).
