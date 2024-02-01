@@ -10,7 +10,8 @@
 
 #include <cinttypes>
 
-BQ34Z100::BQ34Z100(PinName sda, PinName scl, int hz) : _i2c(sda,scl)
+BQ34Z100::BQ34Z100(I2C& i2c, int hz):
+_i2c(i2c)
 {
     // Set the I2C bus frequency
     _i2c.frequency(hz);

@@ -13,6 +13,8 @@
 #ifndef BQ34Z100_H
 #define BQ34Z100_H
 
+#include <mbed.h>
+
 #include <cstdint>
 
 /**
